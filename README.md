@@ -38,7 +38,7 @@ It uses the **Google Speech Recognition API (AI)** for highly accurate recogniti
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/voice-to-text-transcriber.git
+git clone https://github.com/Voice-To-Text-Transcriber/voice-to-text-transcriber.git
 cd voice-to-text-transcriber
 ```
 
