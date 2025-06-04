@@ -55,3 +55,37 @@ venv\Scripts\activate  # On Windows
 pip install PyQt5 fastapi uvicorn speechrecognition fpdf requests
 ```
 
+## 🚀 Running the Application
+
+### Step 1: Start Backend Server
+
+```bash
+uvicorn backend.main:app --reload
+```
+
+### Step 2: Launch the GUI Frontend
+
+```bash
+	python -m frontend.main
+```
+
+
+## 💾 Export Options
+
+### 1. .txt — Saves plain transcript
+### 2. .pdf — Creates a formatted document
+
+
+## 🔐 Notes on Google API
+This app uses Google’s free web speech API through the speech_recognition Python library.
+No authentication or API key is required for basic usage, but internet access is required.
+
+## 🧠 Is this project AI?
+Yes — although you’re not training your own model, this app uses Google’s pre-trained AI models (via cloud API) to recognize and transcribe speech.
+
+## 📄 License
+This project is open-source and available under the MIT License.
+
+## 📬 Contact
+If you'd like to contribute or have any questions: send mail at 'saksalstha@gmail.com'
+
